@@ -20,15 +20,15 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 from tg_bot.modules.translations.strings import tld
 
 PM_START_TEXT = """
-Hi {}, my name is {}! If you have any questions on how to use me, read /help - for all available commands.
+Hiii {}, My Name Is {}!
 
-I'm a group manager bot built in python3, using the python-telegram-bot library, and am fully opensource; \
-you can find what makes me tick [here](github.com/PaulSonOfLars/tgbot)!
+Im An Advanced Group Manager Bot
 
-With some extra Modules .
+With Some Extra Modules
 
-Maintained by [this amazing guy](t.me/nitin_xD).
+Maintained by [My Master](t.me/TechnoAyanOfficial).
 
+Hit /help for Avalaible Commands
 """
 
 HELP_STRINGS = """
@@ -140,8 +140,8 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             first_name = update.effective_user.first_name
             buttons = InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/Wolverinexmen_bot?startgroup=botstart"), InlineKeyboardButton(text="❓ Help", callback_data="help_back")],
-                [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/Sammy0007_chat")]])
+                [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/MissSabrinaBot?startgroup=botstart"), InlineKeyboardButton(text="❓ Help", callback_data="help_back")],
+                [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/TechnoAyanYT")]])
             update.effective_message.reply_text(
                 tld(update.effective_message, PM_START_TEXT).format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 disable_web_page_preview=True,
