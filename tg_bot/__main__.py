@@ -20,15 +20,13 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 from tg_bot.modules.translations.strings import tld
 
 PM_START_TEXT = """
-Hiii {}, My Name Is {}!
+Hey {} ! I'm eLock**
 
-Im An Advanced Group Manager Bot
+Bot to remove different kinds of stuff from chat 
 
-With Some Extra Modules
+Like : bots, stickers, links, photos, file attachments and many more 
 
-Maintained by [My Master](t.me/TechnoAyanOfficial).
-
-Hit /help for Avalaible Commands
+Read /help before using the bot
 """
 
 HELP_STRINGS = """
