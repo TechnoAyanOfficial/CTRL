@@ -40,7 +40,7 @@ Admin only:
  - /locks: the current list of locks in this chat.
 
 Ex. `/lock url` : Delete all messeges with URLs Sent By Non Admins
-""".format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
+"""
 
 IMPORTED = {}
 MIGRATEABLE = []
