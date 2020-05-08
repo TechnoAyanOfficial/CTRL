@@ -153,9 +153,6 @@ def totranslate(bot: Bot, update: Update):
 		return
 
 
-__help__ = """- /tr (language code) as reply to a long message.
-"""
-__mod_name__ = "Translator"
 
 TOTRANSLATE_HANDLER = DisableAbleCommandHandler("tr", totranslate)
 
